@@ -68,11 +68,6 @@
 <section class="hero">
   <div class="hero-body">
     <div class="container">
-      <div class="columns is-centered">
-        <!-- <div class="column is-4 has-text-centered">
-          <img src="static/images/logo.svg" alt="HyperNeRF"/>
-        </div> -->
-      </div>
       <div class="container has-text-centered">
         <h1 class="title is-1 publication-title">
           HabiCrowd: A New Benchmark for Crowd-Aware Visual Navigation
@@ -124,147 +119,34 @@
 </section>
 
 
-<!-- <section class="hero is-dark is-small"> -->
-  <!-- <div class="hero-body">
-    <div class="container has-text-centered">
-      <div id="results-carousel" class="carousel results-carousel">
-
-        <div>
-          <div class="results-item">
-            <video poster="" id="espresso-rgb" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/videos/espresso_rgb.mp4"
-                      type="video/mp4">
-            </video>
-            <video poster="" id="espresso-depth" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/videos/espresso_depth.mp4"
-                      type="video/mp4">
-            </video>
-          </div>
-        </div>
-
-        <div>
-          <div class="results-item">
-            <video poster="" id="split-cookie-rgb" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/videos/split-cookie_rgb.mp4"
-                      type="video/mp4">
-            </video>
-            <video poster="" id="split-cookie-depth" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/videos/split-cookie_depth.mp4"
-                      type="video/mp4">
-            </video>
-          </div>
-        </div>
-
-        <div>
-          <div class="results-item">
-            <video poster="" id="3dprinter-rgb" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/videos/3dprinter_rgb.mp4"
-                      type="video/mp4">
-            </video>
-            <video poster="" id="3dprinter-depth" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/videos/3dprinter_depth.mp4"
-                      type="video/mp4">
-            </video>
-          </div>
-        </div>
-
-        <div>
-          <div class="results-item">
-            <video poster="" id="ricardo-rgb" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/videos/ricardo_rgb.mp4"
-                      type="video/mp4">
-            </video>
-            <video poster="" id="ricardo-depth" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/videos/ricardo_depth.mp4"
-                      type="video/mp4">
-            </video>
-          </div>
-        </div>
-
-        <div>
-          <div class="results-item">
-            <video poster="" id="americano-rgb" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/videos/americano_rgb.mp4"
-                      type="video/mp4">
-            </video>
-            <video poster="" id="americano-depth" autoplay controls muted loop playsinline height="100%">
-              <source src="./static/videos/americano_depth.mp4"
-                      type="video/mp4">
-            </video>
-          </div>
-        </div>
-
-      </div>
-
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-three-quarters">
-          <p>
-            Here we show results generated with <i>HabiCrowd</i>. These videos show the input video
-            being
-            played
-            back with a stabilized novel camera path. The right side video shows the depth of the
-            scene.
-            Click on the arrows or drag to see more results.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div> -->
-<!-- </section> -->
-
-
-<!-- <section class="section"> -->
-  <!-- <div class="container is-max-desktop"> -->
+<section class="section">
+  <div class="container is-max-desktop">
 
     <!-- Abstract. -->
-    <!-- <div class="columns is-centered has-text-centered">
+    <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Neural Radiance Fields (NeRF) are able to reconstruct scenes with unprecedented
-            fidelity,
-            and various recent works have extended NeRF to handle dynamic scenes. A common approach
-            to reconstruct such non-rigid scenes is through the use of a learned deformation field
-            mapping from coordinates in each input image into a canonical template coordinate space.
-            However, these deformation-based approaches struggle to model changes in topology, as
-            topological changes require a discontinuity in the deformation field, but these
-            deformation fields are necessarily continuous.
-          </p>
-          <p>
-            We address this limitation by lifting
-            NeRFs into a higher dimensional space, and by representing the 5D radiance field
-            corresponding to each individual input image as a slice through this "hyper-space". Our
-            method is inspired by level set methods, which model the evolution of surfaces as slices
-            through a higher dimensional surface. We evaluate our method on two tasks: (i)
-            interpolating smoothly between "moments", i.e., configurations of the scene, seen in the
-            input images while maintaining visual plausibility, and (ii) novel-view synthesis at
-            fixed moments. We show that our method, which we dub HyperNeRF, outperforms existing
-            methods on both tasks. Compared to Nerfies, <i>HyperNeRF</i> reduces average error rates by
-            4.1% for interpolation and 8.6% for novel-view synthesis, as measured by LPIPS.
+            Visual navigation, a foundational aspect of Embodied AI (E-AI), has been
+            significantly studied in the past few years. While many 3D simulators have
+            been introduced to support visual navigation tasks, scarcely works have
+            been directed towards combining human dynamics, creating the gap between
+            simulation and real-world applications. Furthermore, current 3D simulators
+            incorporating human dynamics have several limitations, particularly in
+            terms of computational efficiency, which is a promise of E-AI simulators.
+            To overcome these shortcomings, we introduce HabiCrowd, the first standard
+            benchmark for crowd-aware visual navigation that integrates a crowd
+            dynamics model with diverse human settings into photorealistic environments. Empirical evaluations demonstrate that our proposed human dynamics model achieves state-of-the-art performance in collision avoidance, while exhibiting superior computational efficiency compared to its counterparts. We leverage HabiCrowd to conduct several comprehensive studies on crowd-aware visual navigation tasks and human-robot interactions.
           </p>
         </div>
       </div>
-    </div> -->
+    </div>
     <!--/ Abstract. -->
+  </div>
+</section>
 
-    <!-- Paper video. -->
-    <!-- <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-2">Video</h2>
-        <div class="publication-video">
-          <iframe width="640" height="480" src="https://www.youtube.com/embed/qzgdE_ghkaI"
-                  title="YouTube video player" frameborder="0"
-                  allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen></iframe>
-        </div>
-      </div>
-    </div> -->
-    <!--/ Paper video. -->
-  <!-- </div>
-</section> -->
-
-<!-- <hr/> -->
+<hr/>
 
 <!-- <section class="section"> -->
   <!-- <div class="container is-max-desktop">
