@@ -103,10 +103,21 @@
 <section class="hero teaser">
   <div class="hero-body">
     <div class="container is-max-desktop">
-      <video id="teaser" autoplay controls muted loop playsinline height="100%">
-        <source src="./static/images/Environment.mp4"
-                type="video/mp4">
-      </video>
+      <div id="wrapper"> 
+        <video id="teaser_1" autoplay controls muted loop playsinline height="100%"> 
+            <source type="video/avi" src="static/images/scene_0.avi" /> 
+        </video>
+        <video id="teaser_2" autoplay controls muted loop playsinline height="100%"> 
+          <source type="video/avi" src="static/images/scene_1.avi" /> 
+        </video>
+        <video id="teaser_3" autoplay controls muted loop playsinline height="100%"> 
+            <source type="video/avi" src="static/images/scene_2.avi" /> 
+        </video>
+        <video id="teaser_4" autoplay controls muted loop playsinline height="100%"> 
+            <source type="video/avi" src="static/images/scene_3.avi" /> 
+        </video>
+        <div class="clear"></div> 
+      </div>
       <h2 class="subtitle has-text-centered">
         <i>HabiCrowd</i>, a new dataset and benchmark for 
         crowd-aware visual navigation. 
@@ -154,10 +165,6 @@
       </div>
     </div>
     <div class="container is-max-desktop">
-      <video id="teaser" autoplay controls muted loop playsinline height="100%">
-        <source src="./static/images/upl++.mp4"
-                type="video/mp4">
-      </video>
       <div class="content has-text-justified">
         <p>
           <i>UPL++</i>, our proposed human dynamics model achieve collision-free, while
@@ -177,6 +184,10 @@
       </div>
       <img style="width: 90%;" src="./static/images/simulator.svg"
                  alt="Comparison with related benchmarks."/>
+      <video id="teaser" autoplay controls muted loop playsinline height="100%">
+        <source src="./static/images/upl++.mp4"
+                type="video/mp4">
+      </video>
     </div>
   </div>
 </section>
@@ -190,7 +201,7 @@
     </div>
     <div class="container is-max-desktop">
       <video id="teaser" autoplay controls muted loop playsinline height="100%">
-        <source src="./static/images/navigating.mp4"
+        <source src="./static/images/scene_0.avi"
                 type="video/mp4">
       </video>
       <div class="content has-text-justified">
